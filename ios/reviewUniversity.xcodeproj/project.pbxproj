@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* reviewUniversityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reviewUniversityTests.m */; };
+		084AE0E4C3E6455A9879A9A9 /* CreteRound-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE8B8DD1134DA8B6D23315 /* CreteRound-Regular.ttf */; };
 		0C6F93CD3EDB518D9E6381C9 /* libPods-reviewUniversity-reviewUniversityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 850534598B0184126B0A71FC /* libPods-reviewUniversity-reviewUniversityTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CDB4B0F326A0785100BB3C81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB4B0F226A0785100BB3C81 /* GoogleService-Info.plist */; };
+		CDB9C89E26D73AFF008CC197 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C89D26D73AFF008CC197 /* GoogleService-Info.plist */; };
+		CDB9C89F26D73AFF008CC197 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDB9C89D26D73AFF008CC197 /* GoogleService-Info.plist */; };
+		CDC9BEB326D8BDD8000D1F46 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC9BEB226D8BDD8000D1F46 /* File.swift */; };
+		CDC9BEB426D8BDD8000D1F46 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC9BEB226D8BDD8000D1F46 /* File.swift */; };
 		D62B5C06BCFF15A927C9611B /* libPods-reviewUniversity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C71C8AE3698B7ACBF9934BD0 /* libPods-reviewUniversity.a */; };
+		F2DEF0390F994EB3A10F8A28 /* CreteRound-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 830C92088ED44BDAA8ACE02E /* CreteRound-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +46,15 @@
 		52EC97D6009B0EE3534C1D8A /* Pods-reviewUniversity-reviewUniversityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewUniversity-reviewUniversityTests.debug.xcconfig"; path = "Target Support Files/Pods-reviewUniversity-reviewUniversityTests/Pods-reviewUniversity-reviewUniversityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		59E020B4EC0371ECDE6C3482 /* Pods-reviewUniversity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewUniversity.debug.xcconfig"; path = "Target Support Files/Pods-reviewUniversity/Pods-reviewUniversity.debug.xcconfig"; sourceTree = "<group>"; };
 		6DEDE9EEDFB19CC6E283B50C /* Pods-reviewUniversity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewUniversity.release.xcconfig"; path = "Target Support Files/Pods-reviewUniversity/Pods-reviewUniversity.release.xcconfig"; sourceTree = "<group>"; };
+		6DFE8B8DD1134DA8B6D23315 /* CreteRound-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CreteRound-Regular.ttf"; path = "../src/assets/fonts/CreteRound-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reviewUniversity/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		830C92088ED44BDAA8ACE02E /* CreteRound-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CreteRound-Italic.ttf"; path = "../src/assets/fonts/CreteRound-Italic.ttf"; sourceTree = "<group>"; };
 		850534598B0184126B0A71FC /* libPods-reviewUniversity-reviewUniversityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reviewUniversity-reviewUniversityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71C8AE3698B7ACBF9934BD0 /* libPods-reviewUniversity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reviewUniversity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDB4B0F226A0785100BB3C81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDB9C89D26D73AFF008CC197 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDC9BEB026D8BDD8000D1F46 /* reviewUniversity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reviewUniversity-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDC9BEB126D8BDD8000D1F46 /* reviewUniversityTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reviewUniversityTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDC9BEB226D8BDD8000D1F46 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -92,11 +102,20 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				CDB4B0F226A0785100BB3C81 /* GoogleService-Info.plist */,
+				CDB9C89D26D73AFF008CC197 /* GoogleService-Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = reviewUniversity;
+			sourceTree = "<group>";
+		};
+		2CFE2C3F607949839255356F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				830C92088ED44BDAA8ACE02E /* CreteRound-Italic.ttf */,
+				6DFE8B8DD1134DA8B6D23315 /* CreteRound-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -119,12 +138,16 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CDC9BEB226D8BDD8000D1F46 /* File.swift */,
 				13B07FAE1A68108700A75B9A /* reviewUniversity */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* reviewUniversityTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F166BA2648B7F484EF288010 /* Pods */,
+				CDC9BEB026D8BDD8000D1F46 /* reviewUniversity-Bridging-Header.h */,
+				CDC9BEB126D8BDD8000D1F46 /* reviewUniversityTests-Bridging-Header.h */,
+				2CFE2C3F607949839255356F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -208,10 +231,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 1240;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -239,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB9C89F26D73AFF008CC197 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +273,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				CDB4B0F326A0785100BB3C81 /* GoogleService-Info.plist in Resources */,
+				CDB9C89E26D73AFF008CC197 /* GoogleService-Info.plist in Resources */,
+				F2DEF0390F994EB3A10F8A28 /* CreteRound-Italic.ttf in Resources */,
+				084AE0E4C3E6455A9879A9A9 /* CreteRound-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* reviewUniversityTests.m in Sources */,
+				CDC9BEB426D8BDD8000D1F46 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				CDC9BEB326D8BDD8000D1F46 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,7 +477,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52EC97D6009B0EE3534C1D8A /* Pods-reviewUniversity-reviewUniversityTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -467,6 +498,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "reviewUniversityTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reviewUniversity.app/reviewUniversity";
 			};
 			name = Debug;
@@ -475,7 +509,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06A0CF936935601F7EC86D55 /* Pods-reviewUniversity-reviewUniversityTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = reviewUniversityTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -491,6 +527,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "reviewUniversityTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reviewUniversity.app/reviewUniversity";
 			};
 			name = Release;
@@ -515,6 +553,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reviewUniversity;
+				SWIFT_OBJC_BRIDGING_HEADER = "reviewUniversity-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -540,6 +579,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reviewUniversity;
+				SWIFT_OBJC_BRIDGING_HEADER = "reviewUniversity-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
